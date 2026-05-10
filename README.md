@@ -19,7 +19,7 @@ Production-ready end-to-end medallion architecture pipeline on Databricks increm
 
 This project is a production-ready end-to-end pipeline on Databricks. It ingests financial and cosumer data to be processed into a medallion architecture pipeline to then be displayed on a dashboard on databricks for end users to analyze. 
 
-Raw Data is ingested into a bronze layer then cleaned up and passed to a silver layer and finally aggregated and joined in the gold layer where queries will run on that feed to various dashboards.
+Raw Data is ingested into a bronze layer then cleaned up and passed to a silver layer and finally aggregated and joined in the gold layer where queries will run on top to feed various dashboards.
 
 It ingests data from two different sources(AWS S3 and SQL Server on Azure) mimicking a real-world scenario. It uses a JDBC connection to ingest data from SQL Server on Azure and uses Autoloader on Databricks to ingest data from AWS S3.
 
