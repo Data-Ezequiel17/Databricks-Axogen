@@ -1,5 +1,5 @@
-This contains the pyspark notebooks to run a pipeline for a medallion architecture data warehouse in Databricks.
-<img width="2020" height="1197" alt="image" src="https://github.com/user-attachments/assets/1d4ff44f-ee97-4b79-9a85-531cf66cca8b" />
+Production-ready end-to-end medallion architecture pipeline on Databricks processing dummy financial and user data for bio tech company.
+<img width="1810" height="1040" alt="image" src="https://github.com/user-attachments/assets/1636dbca-feaf-4ac5-b992-b09b7f8b9b04" />
 
 <details> 
 <summary><strong>Technologies</strong></summary>
