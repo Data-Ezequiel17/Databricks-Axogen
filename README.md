@@ -17,17 +17,22 @@ Production-ready end-to-end medallion architecture pipeline on Databricks increm
 <details> 
 <summary><strong>About the project</strong></summary>
 
-This project is a production-ready end-to-end pipeline on Databricks. It ingests financial and cosumer data to be processed into a medallion architecture pipeline to then be displayed on a dashboard on databricks for end users to analyze. 
+This project is a production-ready end-to-end pipeline on Databricks. It ingests financial and consumer data to be processed into a medallion architecture pipeline to then be displayed on dashboards on databricks for end users to analyze and run AI agents on. 
 
-Raw Data is ingested into a bronze layer then cleaned up and passed to a silver layer and finally aggregated and joined in the gold layer where queries will run on top to feed various dashboards.
+**Ingestion**
 
-It ingests data from two different sources(AWS S3 and SQL Server on Azure) mimicking a real-world scenario. It uses a JDBC connection to ingest data from SQL Server on Azure and uses Autoloader on Databricks to ingest data from AWS S3.
+Raw Data is ingested into a bronze layer where it's cleaned up and passed to a silver layer and finally aggregated and joined in the gold layer where queries will run on top to feed various dashboards.
 
-The pipeline is ran by PySpark Notebooks. Those notebooks are ran by Databricks jobs with the help of metadata about each table and last runs of those tables.
+It ingests data from two different sources(AWS S3 and SQL Server on Azure). It uses a JDBC connection to ingest data from SQL Server and uses Autoloader on Databricks to ingest data from S3.
+
+**Orchestration**
+
+The pipeline is ran by PySpark Notebooks. Those notebooks are ran/scheduled by Databricks jobs with the help of tables(tables, table_parameters, table_watermarks, pipeline_runs) containing metadata about each main table and their previous runs.
+
+**Presentation**
 
 Once the data is aggregated and pushed to the dashboards end users can interact with the data and even use Databricks built-in AI agent(Ginie) 
-to query, analyze, and visualize structured and unstructured data without writing code. 
-
+to query, analyze, and visualize the data without writing code. 
 </details>
 
 <details> 
