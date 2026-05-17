@@ -5,11 +5,10 @@
 CREATE TABLE #stg_branches (branch_code VARCHAR(MAX), branch_name VARCHAR(MAX), city VARCHAR(MAX), state VARCHAR(MAX), region VARCHAR(MAX));
 
 INSERT INTO #stg_branches (branch_code, branch_name, city, state, region) VALUES 
-('BR001', 'Mumbai Main', 'Mumbai', 'Maharashtra', 'West'),
-('BR002', 'Delhi Central', 'Delhi', 'Delhi', 'North'),
-('BR003', 'Bangalore Tech Park', 'Bangalore', 'Karnataka', 'South'),
-('BR004', 'Ahmedabad Corporate', 'Ahmedabad', 'Gujarat', 'West'),
-('BR005', 'Chennai Hub', 'Chennai', 'Tamil Nadu', 'South');
+('BR001', 'Bank of America', 'New York', 'New York', 'North'),
+('BR002', 'Wells Fargo', 'Miami', 'Florida', 'South'),
+('BR003', 'Chase', 'Tampa', 'Florida', 'South'),
+('BR004', 'City Group', 'Los Angeles', 'California', 'East');
 
 MERGE banking.branches AS target
 USING #stg_branches AS source
