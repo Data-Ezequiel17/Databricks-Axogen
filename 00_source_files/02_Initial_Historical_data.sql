@@ -2,10 +2,10 @@
 
 /* 1. BRANCHES */
 INSERT INTO banking.branches (branch_code, branch_name, city, state, region) VALUES 
-('BR001', 'Mumbai Main', 'Mumbai', 'Maharashtra', 'West'),
-('BR002', 'Delhi Central', 'Delhi', 'Delhi', 'North'),
-('BR003', 'Bangalore Tech Park', 'Bangalore', 'Karnataka', 'South'),
-('BR004', 'Ahmedabad Corporate', 'Ahmedabad', 'Gujarat', 'West');
+('BR001', 'Bank of America', 'New York', 'New York', 'North'),
+('BR002', 'Wells Fargo', 'Miami', 'Florida', 'South'),
+('BR003', 'Chase', 'Tampa', 'Florida', 'South'),
+('BR004', 'City Group', 'Los Angeles', 'California', 'East');
 GO
 
 /* 2. CUSTOMERS */
