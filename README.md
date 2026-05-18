@@ -1,5 +1,6 @@
 Production-ready end-to-end medallion architecture pipeline on Databricks incrementally processing dummy financial and user data for a biotech company.
-<img width="1810" height="1040" alt="image" src="https://github.com/user-attachments/assets/1636dbca-feaf-4ac5-b992-b09b7f8b9b04" />
+<img width="1852" height="1080" alt="image" src="https://github.com/user-attachments/assets/f852d766-dc17-4a15-b64a-6f5dcbbe2f8a" />
+
 
 <details> 
 <summary><strong>Dashboard Images</strong></summary>
