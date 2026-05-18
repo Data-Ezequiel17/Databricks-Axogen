@@ -1,4 +1,4 @@
-Production-ready end-to-end medallion architecture pipeline on Databricks incrementally processing dummy financial and user data for a biotech company.
+Production-ready end-to-end medallion architecture pipeline on Databricks incrementally processing dummy financial and user data for a biotech company with interactive dashboards and able to run AI agents on top of data for analytics.
 <img width="1852" height="1080" alt="image" src="https://github.com/user-attachments/assets/f852d766-dc17-4a15-b64a-6f5dcbbe2f8a" />
 
 
