@@ -28,6 +28,8 @@ Production-ready end-to-end medallion architecture pipeline on Databricks increm
 <details> 
 <summary><strong>Data Model</strong></summary>
 <img width="2010" height="1160" alt="image" src="https://github.com/user-attachments/assets/e3126b55-7077-4a68-a4b2-4b33da02c905" />
+ <img width="1960" height="1117" alt="image" src="https://github.com/user-attachments/assets/ee07bf50-f622-434c-8130-89484c6c700b" />
+
 </details>
 
 
