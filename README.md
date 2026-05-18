@@ -2,13 +2,17 @@ Production-ready end-to-end medallion architecture pipeline on Databricks increm
 <img width="1852" height="1080" alt="image" src="https://github.com/user-attachments/assets/f852d766-dc17-4a15-b64a-6f5dcbbe2f8a" />
 
 
+
 <details> 
 <summary><strong>Databricks Dashboard Images</strong></summary>
- 
 <img width="2857" height="1442" alt="image" src="https://github.com/user-attachments/assets/3da270ed-0d1d-4e63-ab6a-b45cea1176e6" />
 <img width="2875" height="1315" alt="image" src="https://github.com/user-attachments/assets/c3eba572-b7f4-4ded-852d-c1cc19d076d8" />
 <img width="2852" height="1380" alt="image" src="https://github.com/user-attachments/assets/853af8b4-d776-4d33-b3cd-ff085272bbe1" />
+</details>
 
+<details> 
+<summary><strong>Databricks AI Agent images</strong></summary>
+<img width="3182" height="1608" alt="image" src="https://github.com/user-attachments/assets/7c11eaa9-a821-434d-93ff-d94c3e37748d" />
 </details>
 
 <details> 
