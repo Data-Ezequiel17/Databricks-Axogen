@@ -35,6 +35,7 @@ Production-ready end-to-end medallion architecture pipeline on Databricks increm
 
   <details> 
   <summary><strong>    Gold layer</strong></summary> 
+  <img width="1906" height="794" alt="image" src="https://github.com/user-attachments/assets/fa3ae055-bc8f-482e-9ccc-d9cff8c3aebe" />
   <img width="1960" height="1117" alt="image" src="https://github.com/user-attachments/assets/ee07bf50-f622-434c-8130-89484c6c700b" />
   </details>  
 
