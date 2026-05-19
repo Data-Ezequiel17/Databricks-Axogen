@@ -79,7 +79,7 @@ Below is the execution summary:
 
 <p>
 For any queries please reach out to:
-<b>databeli13@gmail.com</b>
+<b>your_email@gmail.com</b>
 </p>
 
 <br>
@@ -115,11 +115,11 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Gmail account
-EMAIL = "databeli13@gmail.com"
+EMAIL = "your_email@gmail.com"
 APP_PASSWORD = gmail_api_key
 
 # Receiver
-to_email = "databeli13@gmail.com"
+to_email = "your_email@gmail.com"
 
 # Create message
 msg = MIMEMultipart()
